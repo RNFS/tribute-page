@@ -1,0 +1,97 @@
+html {
+    font-size: 1.1em;
+    box-sizing: border-box ;
+}
+#image {
+    max-width: 40%;
+    max-height: 40%; 
+    display: block ;
+    margin: 10px auto ;
+}
+#img-caption{
+    text-align: center ;
+    margin: auto;
+    font-family: Papyrus, Tahoma ;
+
+}
+#img-div {
+    padding: 10px ;
+    max-width: 60% ;
+
+}
+#main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.2em;
+    color: #ffffee;
+    max-width: 80%;
+    max-height: 70% ;
+    margin : auto;
+}
+
+body {
+    /* background-image: url("https://i0.wp.com/news.travelerpedia.net/wp-content/uploads/2020/10/%D9%85%D8%B5%D8%B13.jpg?resize=1024%2C633&ssl=1"); */
+    background-color: hsl(0, 90%, 3%);
+    height: 100% ;
+    width: 99% ;
+
+}
+
+a:hover {
+    color: white ;
+}
+
+
+a {
+    text-decoration: none ;
+    font-size: 1em ;
+}
+
+.eg-flag{
+    height: 4.5rem;
+    width: 80%;
+    margin: 0  auto ;
+    /* background-image : linear-gradient(hsl(0, 100%, 50%), hsl(0, 100%, 100%), hsl(0, 30%, 0%)) ; */
+    border:hsl(0, 100%, 100%) solid 1px;
+}
+.red , .white, .black {
+    height: 1.5rem  ; 
+}
+.red {
+    background-color: #FF0000 ;
+}
+
+#cont{
+    display: flex ;
+    justify-content: flex-start ; 
+}
+#cont div{
+    display: inline ;
+}
+.white {
+    background-color: #ffffff ;
+    width: 45%;
+    /* border-right: white solid 1px ;
+    border-left: white solid 1px ; */
+    border-style: none ;
+    
+}
+
+.black {
+    background-color: #000000; 
+}
+
+#eagle-img {
+    margin: 2px 50% 2px 49% ;
+    max-width: 20px ; 
+    /* min-width: 50%; */
+    height: 90% ;
+} 
+
+.eagle {
+    /* border-style: none ; */
+    border-right: white dashed 1px ;
+    border-left: white dashed  1px ;
+    min-width: 10%; 
+    height : 1.5rem; 
+    background-image: linear-gradient(white, white) ;
+}
